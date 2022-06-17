@@ -91,7 +91,7 @@ test('Success_New_Meeting_And_Submit', async t => {
     .typeText(uf.location_municipality, 'Randwick')
     // .typeText(uf.location_sub_province, 'subprovince')
     .typeText(uf.location_province, 'NSW')
-    .typeText(uf.location_postal_code_1, '2031');
+    .typeText(uf.location_postal_code_1, 'P22 KX05');
 
     await select_dropdown_by_text(uf.service_body_bigint,'a-level1');
     await t
@@ -286,7 +286,7 @@ test('Change_Meeting_Details_Check_Highlighting', async t => {
     .expect(uf.location_municipality.hasClass('wbw-changed')).ok()
     .typeText(uf.location_province, 'NSW')
     .expect(uf.location_province.hasClass('wbw-changed')).ok()
-    .typeText(uf.location_postal_code_1, '2031')
+    .typeText(uf.location_postal_code_1, 'P22 KX05')
     .expect(uf.location_postal_code_1.hasClass('wbw-changed')).ok()
 
 });

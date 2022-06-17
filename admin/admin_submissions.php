@@ -175,7 +175,7 @@ EOD;
             <?php echo $states ?>
 
             <label for="quickedit_location_postal_code_1">Postcode<span class="wbw-required-field"> *</span></label>
-            <input class="meeting-input" type="number" name="quickedit_location_postal_code_1" size="5" max="99999" id="quickedit_location_postal_code_1" required>
+            <input class="meeting-input" type="text" name="quickedit_location_postal_code_1" size="8" id="quickedit_location_postal_code_1" required>
 
             <div id="optional_location_nation">
                 <label for="quickedit_location_nation">Nation</label>

@@ -31,7 +31,7 @@ test('Submit_New_Meeting_And_Approve_And_Verify', async t => {
         location_info: 'info',
         location_municipality: 'randwick',
         location_province: 'nsw',
-        location_postal_code_1: '2032'
+        location_postal_code_1: 'P22 KX02'
         };
 
     await t 
@@ -72,7 +72,7 @@ test('Submit_New_Meeting_And_Approve_And_Verify', async t => {
         location_info: 'info',
         location_municipality: 'randwick',
         location_province: 'nsw',
-        location_postal_code_1: '2032',
+        location_postal_code_1: 'P22 KX02',
         phone_meeting_number: '+61 1800 253430 code #8303782669',
         virtual_meeting_link: 'https://us02web.zoom.us/j/83037287669?pwd=OWRRQU52ZC91TUpEUUExUU40eTh2dz09',
         virtual_meeting_additional_info: 'Zoom ID 83037287669 Passcode: testing'
@@ -175,7 +175,7 @@ test('Submit_New_Meeting_And_Approve_And_Verify', async t => {
     //     location_info: 'info',
     //     location_municipality: 'randwick',
     //     location_province: 'nsw',
-    //     location_postal_code_1: '2032',
+    //     location_postal_code_1: 'P22 KX02',
     //     phone_meeting_number: '+61 1800 253430 code #8303782669',
     //     virtual_meeting_link: 'https://us02web.zoom.us/j/83037287669?pwd=OWRRQU52ZC91TUpEUUExUU40eTh2dz09',
     //     virtual_meeting_additional_info: 'Zoom ID 83037287669 Passcode: testing'
